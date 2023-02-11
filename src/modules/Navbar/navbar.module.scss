@@ -1,0 +1,19 @@
+.menu {
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 40px;
+  color: green;
+}
+
+.link:global(.active) {
+  color: red;
+  font-weight: bold;
+}
+// .link.active {
+//   color: red;
+//   font-weight: bold;
+// }
