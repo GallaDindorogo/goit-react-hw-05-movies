@@ -1,5 +1,11 @@
-const MoviesPage = () => {
-  return <h1>Movies</h1>;
+import Searchbar from 'Pages/SearchPage/Searchbar/Searchbar';
+
+const MoviePage = () => {
+  return (
+    <>
+      <Searchbar />
+    </>
+  );
 };
 
-export default MoviesPage;
+export default MoviePage;

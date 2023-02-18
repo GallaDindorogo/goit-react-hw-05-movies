@@ -2,10 +2,6 @@ import { NavLink } from 'react-router-dom';
 import styles from './navbar.module.scss';
 import items from './items';
 
-// const getFullName = ({ isActive }) => {
-//   return isActive ? `${styles.link} ${styles.active}` : styles.link;
-// };
-
 const Navbar = () => {
   const elements = items.map(({ id, text, link }) => (
     <li key={id}>
@@ -15,11 +11,7 @@ const Navbar = () => {
     </li>
   ));
 
-  return (
-    <ul>
-      <li>{elements}</li>
-    </ul>
-  );
+  return <ul className={styles.list}>{elements}</ul>;
 };
 
 export default Navbar;

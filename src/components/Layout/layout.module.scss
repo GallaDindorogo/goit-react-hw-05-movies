@@ -1,0 +1,16 @@
+.Navbar {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #303030;
+  opacity: 0.99;
+  box-shadow: 5px 5px 8px 0px rgb(96, 87, 71);
+  background-image: linear-gradient(to left, transparent, rgba(45, 12, 60, 0.8)),
+    url('../../shared/img/kino.jpg');
+}

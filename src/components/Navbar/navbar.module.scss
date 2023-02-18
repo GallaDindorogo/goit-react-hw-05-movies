@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 70px;
+  font-size: 36px;
+  color: whitesmoke;
+}
+
+.link:global(.active) {
+  color: rgb(175, 96, 235);
+  font-weight: bold;
+}
