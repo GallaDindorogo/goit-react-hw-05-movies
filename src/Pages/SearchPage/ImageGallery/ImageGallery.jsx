@@ -26,11 +26,8 @@ const ImageGallery = ({ items }) => {
                 src={`https://image.tmdb.org/t/p/w500${backdrop_path}`}
                 alt={''}
               />
-              <p className={styles.Title}> {title}</p>
-              <p className={styles.Title}>
-                {' '}
-                {releaseData.toLocaleDateString()}
-              </p>
+              <p>{title}</p>
+              <p>{releaseData.toLocaleDateString()}</p>
             </Link>
           </li>
         </div>
